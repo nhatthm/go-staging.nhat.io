@@ -1,11 +1,16 @@
 {
   "page_title": "Open Source Go Modules",
-  "host": "go.nhat.io",
+  "host": "go-staging.nhat.io",
   "repositories": [
     {
-      "library": "Clock",
-      "path": "clock",
-      "repository": "https://github.com/nhatthm/go-clock"
+        "library": "Playground 2022-08-21",
+        "path": "playground-20220821",
+        "repository": "https://github.com/nhatthm/go-playground-20220821"
+    },
+    {
+        "library": "Clock",
+        "path": "clock",
+        "repository": "https://github.com/nhatthm/go-clock"
     },
     {
       "library": "gRPC Mock",
@@ -47,14 +52,14 @@
       "path": "testcontainers-go-extra",
       "repository": "https://github.com/nhatthm/testcontainers-go-extra",
       "ref": "v0.4.0",
-      "deprecated": "Use go.nhat.io/testcontainers-extra instead"
+      "deprecated": "Use go-staging.nhat.io/testcontainers-extra instead"
     },
     {
       "library": "Testcontainers Go Registry",
       "path": "testcontainers-go-registry",
       "repository": "https://github.com/nhatthm/testcontainers-go-registry",
       "ref": "v0.6.0",
-      "deprecated": "Use go.nhat.io/testcontainers-registry instead"
+      "deprecated": "Use go-staging.nhat.io/testcontainers-registry instead"
     }
   ]
 }
