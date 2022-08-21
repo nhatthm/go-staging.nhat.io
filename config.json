@@ -3,9 +3,9 @@
   "host": "go-staging.nhat.io",
   "repositories": [
     {
-        "library": "Playground 2022-08-21",
-        "path": "playground-20220821",
-        "repository": "https://github.com/nhatthm/go-playground-20220821"
+        "library": "Playground 2022-08-21 v2",
+        "path": "playground-20220821-2",
+        "repository": "https://github.com/nhatthm/go-playground-20220821-2"
     },
     {
         "library": "Clock",
