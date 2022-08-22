@@ -3,19 +3,9 @@
   "host": "go-staging.nhat.io",
   "repositories": [
     {
-        "library": "Playground 2022-08-21 v2",
-        "path": "playground-20220821-2/v2",
-        "repository": "https://github.com/nhatthm/go-playground-20220821-2"
-    },
-    {
-        "library": "Playground 2022-08-21 v3",
-        "path": "playground-20220821-2/v3",
-        "repository": "https://github.com/nhatthm/go-playground-20220821-2"
-    },
-    {
-        "library": "Clock",
-        "path": "clock",
-        "repository": "https://github.com/nhatthm/go-clock"
+      "library": "Clock",
+      "path": "clock",
+      "repository": "https://github.com/nhatthm/go-clock"
     },
     {
       "library": "gRPC Mock",
