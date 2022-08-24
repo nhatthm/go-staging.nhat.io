@@ -1,9 +1,9 @@
 {
-  "checksum": "b0174071cf8bdddeb574228507bb82e69a07cd6d",
+  "checksum": "7a0d9eb081466f79ceb0748f67d393643c9cf44e",
   "page_title": "Open Source Go Modules",
   "page_description": "",
   "hostname": "go-staging.nhat.io",
-  "source_url": "",
+  "source_url": "https://github.com/nhatthm/go-staging.nhat.io",
   "repositories": [
     {
       "name": "Clock",
