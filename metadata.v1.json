@@ -1,5 +1,5 @@
 {
-  "checksum": "1233873336f21b3cf85bdc6e544068aef967076c",
+  "checksum": "aed24bc9585ad15b8128264907de834697857aea",
   "page_title": "Open Source Go Modules",
   "page_description": "",
   "hostname": "go-staging.nhat.io",
@@ -7,7 +7,7 @@
   "repositories": [
     {
       "name": "Playground 2022-08-25",
-      "path": "clock",
+      "path": "playground20220825",
       "deprecated": "",
       "repository_url": "https://github.com/nhatthm/go-playground-20220825",
       "repository_name": "github.com/nhatthm/go-playground-20220825",
@@ -15,8 +15,8 @@
       "latest_version": "v0.0.0",
       "modules": [
         {
-          "path": "clock",
-          "import_prefix": "clock",
+          "path": "playground20220825",
+          "import_prefix": "playground20220825",
           "vcs": "git",
           "repository_url": "https://github.com/nhatthm/go-playground-20220825",
           "home_url": "https://github.com/nhatthm/go-playground-20220825",
