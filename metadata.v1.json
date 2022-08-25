@@ -1,10 +1,30 @@
 {
-  "checksum": "7a0d9eb081466f79ceb0748f67d393643c9cf44e",
+  "checksum": "1233873336f21b3cf85bdc6e544068aef967076c",
   "page_title": "Open Source Go Modules",
   "page_description": "",
   "hostname": "go-staging.nhat.io",
   "source_url": "https://github.com/nhatthm/go-staging.nhat.io",
   "repositories": [
+    {
+      "name": "Playground 2022-08-25",
+      "path": "clock",
+      "deprecated": "",
+      "repository_url": "https://github.com/nhatthm/go-playground-20220825",
+      "repository_name": "github.com/nhatthm/go-playground-20220825",
+      "ref": "",
+      "latest_version": "v0.0.0",
+      "modules": [
+        {
+          "path": "clock",
+          "import_prefix": "clock",
+          "vcs": "git",
+          "repository_url": "https://github.com/nhatthm/go-playground-20220825",
+          "home_url": "https://github.com/nhatthm/go-playground-20220825",
+          "directory_url": "https://github.com/nhatthm/go-playground-20220825/tree/master{/dir}",
+          "file_url": "https://github.com/nhatthm/go-playground-20220825/blob/master{/dir}/{file}#L{line}"
+        }
+      ]
+    },
     {
       "name": "Clock",
       "path": "clock",
