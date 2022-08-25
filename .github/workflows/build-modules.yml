@@ -4,8 +4,6 @@ name: "build-modules"
 concurrency: build
 
 on:
-  repository_dispatch:
-    types: [build-modules]
   workflow_dispatch:
     inputs:
       modules:
@@ -18,7 +16,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.modules != '' || github.event.client_payload.modules != '' }}
+    if: ${{ github.event.inputs.modules != '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -26,7 +24,7 @@ jobs:
       - name: Build
         uses: nhatthm/govanityrender-action@dev
         with:
-          modules: ${{ github.event.inputs.modules == '' && github.event.client_payload.modules || github.event.inputs.modules }}
+          modules: ${{ github.event.inputs.modules }}
 
       - name: Push
         uses: JamesIves/github-pages-deploy-action@v4
