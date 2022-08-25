@@ -4,10 +4,16 @@ name: "build"
 concurrency: build
 
 on:
+  # schedule:
+  #   - cron: "0 * * * *"
   push:
     branches:
       - master
   workflow_dispatch:
+    inputs:
+      modules:
+        description: 'A comma-separated list of modules to be rebuilt. If omitted, rebuild everything'
+        required: false
 
 permissions:
   contents: write
@@ -21,6 +27,8 @@ jobs:
 
       - name: Build
         uses: nhatthm/govanityrender-action@dev
+        with:
+          modules: ${{ github.event.inputs.modules }}
 
       - name: Push
         uses: JamesIves/github-pages-deploy-action@v4
