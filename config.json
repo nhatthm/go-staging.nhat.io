@@ -4,11 +4,6 @@
   "source_url": "https://github.com/nhatthm/go-staging.nhat.io",
   "repositories": [
     {
-      "name": "Playground 2022-08-25",
-      "path": "playground20220825",
-      "repository": "https://github.com/nhatthm/go-playground-20220825"
-    },
-    {
       "name": "Clock",
       "path": "clock",
       "repository": "https://github.com/nhatthm/go-clock"
