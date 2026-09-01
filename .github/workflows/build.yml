@@ -28,6 +28,8 @@ jobs:
       - name: Build
         uses: nhatthm/govanityrender-action@dev
         with:
+          homepage-template: templates/homepage.html.hbs
+          404-template: templates/404.html.hbs
           modules: ${{ github.event.inputs.modules }}
 
       - name: Push
